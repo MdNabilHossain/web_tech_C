@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form Validation</title>
 </head>
 
 <body>
@@ -76,7 +76,7 @@
     }
     ?>
 
-    <h2>PHP Form Validation Example</h2>
+    <h2>PHP Registration Form Validation </h2>
     <p><span class="error">* required field</span></p>
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
         Name: <input type="text" name="name" value="<?php echo $name; ?>">
